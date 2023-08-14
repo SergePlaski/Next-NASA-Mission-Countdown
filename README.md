@@ -1,4 +1,9 @@
-This simple app is based on the idea by Scrimba training video: 
+# Countdown to the Next NASA Space Mission
+
+![Page screenshot](static/demo-screenshot.jpg)
+
+
+This simple app is based on the idea from this Scrimba training video: 
 https://www.youtube.com/watch?v=i9xpSr87QrM
 The code is completely reworked, and I have added a data feed with multiple missions.
 

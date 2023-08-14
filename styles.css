@@ -77,19 +77,3 @@ footer > #footer-contacts {
 footer a {
     margin-right: 8px;
 }
-/* .mission-info::before {
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    width: 32px;
-    height: 32px;
-    background-image: url(./icons8-info.svg);
-    content: '';
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-} */
