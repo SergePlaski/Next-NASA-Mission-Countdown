@@ -1,74 +1,146 @@
 {
-    "missions": [
+	"missions": [
+		{
+			"Date": "1/11/2022",
+			"Mission": "JPSS-2",
+			"Description": "NASA and the National Oceanic and Atmospheric Administration will launch NOAA's Joint Polar Satellite System-2 (JPSS-2) weather and climate satellite mission with NASA's Low-Earth Orbit Flight Test of an Inflatable Decelerator (LOFTID) demonstration from Vandenberg Space Force Base in California.  The third satellite in the JPSS series, JPSS-2 will capture data to improve weather forecasts, helping scientists predict and prepare for extreme weather events and climate change."
+		},
+		{
+			"Date": "12/5/2022",
+			"Mission": "Surface Water and Ocean Topography",
+			"Description": "The Surface Water and Ocean Topography (SWOT) mission will help researchers determine how much water Earth's oceans, lakes, and rivers contain. This will aid scientists in understanding the effects of climate change on freshwater bodies and the ocean's ability to absorb excess heat and greenhouse gases like carbon dioxide."
+		},
+		{
+			"Date": "12/22/2022",
+			"Mission": "Intuitive Machines Commercial Payload Lunar Services",
+			"Description": "A suite of robotic NASA payloads will be sent to the lunar surface as part of a Commercial Lunar Payload Services delivery, in this case by Intuitive Machines of Houston. Landing will take place in the following weeks."
+		},
+		{
+			"Date": "12/31/2022",
+			"Mission": "X-57 First Flight",
+			"Description": "The first flight of NASA's X-57, a small, experimental airplane powered by electricity. All-electric technology will make flying cleaner, quieter, and more sustainable. The flight will take place at NASA's Armstrong Flight Research Center in California.",
+			"Note": "the earliest date"
+		},
+
+		{
+			"Date": "02/11/2023",
+			"Mission": "NASA's Boeing Crew Flight Test",
+			"Description": "The Crew Flight Test will demonstrate the ability of Starliner and the United Launch Alliance's Atlas V rocket to safely carry astronauts to and from the International Space Station. Following a successful test flight with astronauts, NASA will begin the final process of certifying the Starliner spacecraft and systems for regular crew rotation flights to the space station.",
+			"Note": "targeted date"
+		},
+
+		{
+			"Date": "03/31/2023",
+			"Mission": "Quesst",
+			"Description": "The first flight of the Quesst quiet supersonic aircraft will take place out of Lockheed flight facilities in Palmdale, California. The Quesst mission has two goals: 1) design and build NASA's X-59 research aircraft with technology that reduces the loudness of a sonic boom to a gentle thump to people on the ground; and 2) fly the X-59 over select U.S. communities to gather data on human responses to the sound generated during supersonic flight and deliver that data set to U.S. and international regulators."
+		},
+		{
+			"Date": "04/30/2023",
+			"Mission": "XRISM",
+			"Description": "The X-ray Imaging and Spectroscopy Mission (IRISM), is a collaborative mission between the Japan Aerospace Exploration Agency and NASA, with participation by ESA, to investigate celestial X-ray objects with high-resolution spectroscopy and high-throughput imaging."
+		},
+		{
+			"Date": "08/01/2023",
+			"Mission": "Lunar Trailblazer",
+			"Description": "Lunar Trailblazer, a mission selected under NASA's Small Innovative Missions for Planetary Exploration (SIMPLEx) program, is a small satellite designed to provide an understanding of the form, abundance, and distribution of water on the Moon, as well as the lunar water cycle."
+		},
+		{
+			"Date": "12/28/2023",
+			"Mission": "Masten Space Systems Commercial Lunar Payload Services Flight",
+			"Description": "Suite of eight payloads - with nine science and technology instruments - delivered to the lunar South Pole of the Moon as part of a Commercial Lunar Payload Services delivery. Landing takes place in the following weeks."
+		},
+		{
+			"Date": "12/24/2023",
+			"Mission": "Peregrine Mission 1 (TO 2-AB)",
+			"Description": "Launch of NASA CLPS lunar lander"
+		},
+		{
+			"Date": "12/30/2023",
+			"Mission": "Firefly Aerospace Commercial Lunar Payload Services",
+			"Description": "Suite of 10 science investigations and technology demonstrations delivered to a non-polar region of the Moon's surface as part of a Commercial Lunar Payload Services delivery. Landing takes place in the following weeks."
+		},
+		{
+			"Date": "12/31/2023",
+			"Mission": "ASTHROS",
+			"Description": "Launching from Antarctica, Astrophysics Stratospheric Telescope for High Spectral Resolution Observations at Submillimeter-wavelengths (ASTHROS) will use a balloon larger than a football field to study a phenomenon that chokes off star formation in some galaxies.",
+			"Note": "the earliest target date"
+		},
+		{
+			"Date": "12/31/2023",
+			"Mission": "Jupiter ICy moons Explorer (JUICE) Launch",
+			"Description": "An ESA (European Space Agency) mission, for which NASA is providing instruments, JUICE will carry the most powerful scientific payload ever flown to the outer solar system. The mission will study Jupiter and its moons to help scientists understand how habitable worlds might emerge around gas giant planets."
+		},
+		{
+			"Date": "12/31/2023",
+			"Mission": "EUCLID",
+			"Description": "This ESA (European Space Agency) mission with NASA contributions, will explore the mysterious dark energy that is fueling the accelerated expansion of the universe."
+		},
+		{
+			"Date": "01/03/2024",
+			"Mission": "Galactic/Extragalactic ULDB Spectroscopic Terahertz Observatory (GUSTO)",
+			"Description": "Launching from Antarctica, Galactic/Extragalactic ULDB Spectroscopic Terahertz Observatory (GUSTO) will fly an Ultralong-Duration Balloon carrying a telescope with carbon, oxygen and nitrogen emission line detectors, to measure emissions from the interstellar medium, the cosmic material found between stars.",
+			"Note": "the earliest target date"
+		},
+		{
+            "Date": "01/12/2024",
+			"Mission": "Intuitive Machines 1 (TO 2-IM)",
+			"Description": "Launch of NASA CLPS lunar lander"
+		},
         {
-            "Date": "1/11/2022", 
-            "Mission": "JPSS-2",
-            "Description": "NASA and the National Oceanic and Atmospheric Administration will launch NOAA's Joint Polar Satellite System-2 (JPSS-2) weather and climate satellite mission with NASA's Low-Earth Orbit Flight Test of an Inflatable Decelerator (LOFTID) demonstration from Vandenberg Space Force Base in California.  The third satellite in the JPSS series, JPSS-2 will capture data to improve weather forecasts, helping scientists predict and prepare for extreme weather events and climate change."
-        },
-        {
-            "Date": "12/5/2022",
-            "Mission": "Surface Water and Ocean Topography",
-            "Description": "The Surface Water and Ocean Topography (SWOT) mission will help researchers determine how much water Earth's oceans, lakes, and rivers contain. This will aid scientists in understanding the effects of climate change on freshwater bodies and the ocean's ability to absorb excess heat and greenhouse gases like carbon dioxide."
-        },
-        {
-            "Date": "12/22/2022",
-            "Mission": "Intuitive Machines Commercial Payload Lunar Services",
-            "Description": "A suite of robotic NASA payloads will be sent to the lunar surface as part of a Commercial Lunar Payload Services delivery, in this case by Intuitive Machines of Houston. Landing will take place in the following weeks."
-        },
-        {"Date": "12/31/2022",
-            "Mission": "X-57 First Flight",
-            "Description": "The first flight of NASA's X-57, a small, experimental airplane powered by electricity. All-electric technology will make flying cleaner, quieter, and more sustainable. The flight will take place at NASA's Armstrong Flight Research Center in California.",
-            "Note": "the earliest date"
-        },
-        
-        {"Date": "02/11/2023",
-            "Mission": "NASA's Boeing Crew Flight Test",
-            "Description": "The Crew Flight Test will demonstrate the ability of Starliner and the United Launch Alliance's Atlas V rocket to safely carry astronauts to and from the International Space Station. Following a successful test flight with astronauts, NASA will begin the final process of certifying the Starliner spacecraft and systems for regular crew rotation flights to the space station.",
-            "Note": "targeted date"
-        },
-        
-        {"Date": "03/31/2023",
-            "Mission": "Quesst",
-            "Description": "The first flight of the Quesst quiet supersonic aircraft will take place out of Lockheed flight facilities in Palmdale, California. The Quesst mission has two goals: 1) design and build NASA's X-59 research aircraft with technology that reduces the loudness of a sonic boom to a gentle thump to people on the ground; and 2) fly the X-59 over select U.S. communities to gather data on human responses to the sound generated during supersonic flight and deliver that data set to U.S. and international regulators."
-        },
-        {"Date": "04/30/2023",
-            "Mission": "XRISM",
-            "Description": "The X-ray Imaging and Spectroscopy Mission (IRISM), is a collaborative mission between the Japan Aerospace Exploration Agency and NASA, with participation by ESA, to investigate celestial X-ray objects with high-resolution spectroscopy and high-throughput imaging."
-        },
-        {"Date": "08/01/2023",
-            "Mission": "Lunar Trailblazer",
-            "Description": "Lunar Trailblazer, a mission selected under NASA's Small Innovative Missions for Planetary Exploration (SIMPLEx) program, is a small satellite designed to provide an understanding of the form, abundance, and distribution of water on the Moon, as well as the lunar water cycle."
-        },
-        {"Date": "12/28/2023",
-            "Mission": "Masten Space Systems Commercial Lunar Payload Services Flight",
-            "Description": "Suite of eight payloads - with nine science and technology instruments - delivered to the lunar South Pole of the Moon as part of a Commercial Lunar Payload Services delivery. Landing takes place in the following weeks."
-        },
-        {"Date": "12/30/2023",
-            "Mission": "Firefly Aerospace Commercial Lunar Payload Services",
-            "Description": "Suite of 10 science investigations and technology demonstrations delivered to a non-polar region of the Moon's surface as part of a Commercial Lunar Payload Services delivery. Landing takes place in the following weeks."
-        },
-        {"Date": "12/31/2023",
-            "Mission": "ASTHROS",
-            "Description": "Launching from Antarctica, Astrophysics Stratospheric Telescope for High Spectral Resolution Observations at Submillimeter-wavelengths (ASTHROS) will use a balloon larger than a football field to study a phenomenon that chokes off star formation in some galaxies.",
-            "Note": "the earliest target date"
-        },    
-        {"Date": "12/31/2023",
-            "Mission": "Jupiter ICy moons Explorer (JUICE) Launch",
-            "Description": "An ESA (European Space Agency) mission, for which NASA is providing instruments, JUICE will carry the most powerful scientific payload ever flown to the outer solar system. The mission will study Jupiter and its moons to help scientists understand how habitable worlds might emerge around gas giant planets."
-        },
-        {"Date": "12/31/2023",
-            "Mission": "EUCLID",
-            "Description": "This ESA (European Space Agency) mission with NASA contributions, will explore the mysterious dark energy that is fueling the accelerated expansion of the universe."
-        },
-        {"Date": "01/01/2024",
-            "Mission": "Galactic/Extragalactic ULDB Spectroscopic Terahertz Observatory (GUSTO)",
-            "Description": "Launching from Antarctica, Galactic/Extragalactic ULDB Spectroscopic Terahertz Observatory (GUSTO) will fly an Ultralong-Duration Balloon carrying a telescope with carbon, oxygen and nitrogen emission line detectors, to measure emissions from the interstellar medium, the cosmic material found between stars.",
-            "Note": "the earliest target date"
-        },
-        {"Date": "01/20/2024",
+            "Date": "01/20/2024",
             "Mission": "Plankton, Aerosol Cloud Ocean Ecosystem (PACE)",
             "Description": "PACE will advance the assessment of ocean health by measuring the distribution of phytoplankton, tiny plants and algae that sustain the marine food web.",
             "Note": "target date"
-        }
-    ]
+        },
+		{
+			"Date": "09/05/2024",
+			"Mission": "Bepi-Colombo",
+			"Description": "ESA mission makes its fourth Mercury flyby"
+		},
+		{
+			"Date": "09/14/2024",
+			"Mission": "Martian Moon eXploration (MMX)",
+			"Description": "Launch of JAXA mission to return sample from Phobos"
+		},
+		{
+			"Date": "10/16/2024",
+			"Mission": "Europa Clipper",
+			"Description": "Launch of NASA Jupiter Orbiter to study Europa"
+		},
+		{
+			"Date": "10/18/2024",
+			"Mission": "Hera",
+			"Description": "Launch of ESA mission to asteroids Didymos and Dimorphos"
+		},
+		{
+			"Date": "11/04/2024",
+			"Mission": "Griffin Mission 1 (TO 20A VIPER)",
+			"Description": "Launch of NASA CLPS lunar lander"
+		},
+		{
+			"Date": "12/02/2024",
+			"Mission": "Bepi-Colombo",
+			"Description": "ESA mission makes its fifth Mercury flyby"
+		},
+		{
+			"Date": "12/13/2024",
+			"Mission": "Lucy",
+			"Description": "NASA asteroid mission makes second Earth flyby"
+		},
+		{
+			"Date": "01/09/2025",
+			"Mission": "Bepi-Colombo",
+			"Description": "ESA mission makes its sixth Mercury flyby"
+		},
+		{
+			"Date": "04/20/2025",
+			"Mission": "Lucy",
+			"Description": "NASA asteroid mission makes flyby of asteroid Donaldjohanson"
+		},
+		{
+			"Date": "12/05/2025",
+			"Mission": "Bepi-Colombo",
+			"Description": "ESA mission goes into orbit around Mercury"
+		}
+	]
 }
