@@ -1,79 +1,94 @@
-html, body {
+html,
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: monospace;
 }
-header .logo {
-    width: 12rem;
-    display: block;
-    margin: auto;
-}
+
 body {
-    /* text-align: center; */
+    --max-content-width: 440px;
+
+    position: relative;
+    min-height: 100dvh;
+    min-height: 100vh;
     background-color: #1f1f1f;
+    color: lightgray;
     color-scheme: dark;
 }
+
 main {
-    width: 500px;
-    max-width: 90%;
-    height: 100vh;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: var(--max-content-width);
     margin: 8px auto;
 }
-p {
-    margin: .5rem;
+
+.logo {
+    display: block;
+    width: 330px;
+    margin: 0 auto 20px;
 }
+
 .mission-info {
-    /* position: relative; */
-    margin: 0 auto 30px;
-    padding: 8px 16px 12px;
-    text-align: left;
-    color: lightgray;
-    background-color: rgb(40, 44, 48);
-    /* font-family: monospace; */
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
+    margin: 0 auto 24px;
+    padding: 16px;
     border-radius: 16px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: rgb(255 255 255 / 0.06);
+
+    & h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    & p {
+     display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 4px;
+    }
+
+    & #mission-description {
+        margin-top: 16px;
+    }
 }
-.mission-info h3 {
-    margin-top: 6px;
-    text-align: center;
+
+.data-label {
+    margin-right: 1ch;
 }
-.mission-info #mission-description {
-    padding-top: 16px;
-    font-weight: 300;
-}
+
 .countdown-display {
     text-align: center;
-    font-family: 'Nova Mono', monospace;
-    font-size: 1.5em;
     color: orangered;
+
+    & #countdown-time {
+        font-size: 2.25rem;
+    }
+
+    & #countdown-labels {
+        font-size: 1.275rem;
+    }
 }
-#countdown-time {
-    font-size: 1.6rem;
-}
-#countdown-labels {
-    font-size: 1.8rem;
-    text-transform: uppercase;
-}
+
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 8px;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: .8rem;
-    color:lightgrey;
-    background-color: #000;
-}
-footer > #footer-copy {
-    position: left;
-    padding-left: 6px;
-    text-align: left;
-}
-footer > #footer-contacts {
-    position: absolute;
-    right: 1.5rem;
-}
-footer a {
-    margin-right: 8px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    background-color: #121212;
+    unicode-bidi: unset;
+
+    & #footer-copy {
+        display: flex;
+        align-items: center;
+        gap: 1ch;
+    }
 }

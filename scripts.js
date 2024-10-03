@@ -7,7 +7,6 @@ fetch("./data/mission-data.json")
   })
   .then(data => {
     const missions = data.missions;
-    console.log(missions);
     // find the next mission
     const nowDate = new Date();
     const nextMission = missions.find(
@@ -38,7 +37,7 @@ fetch("./data/mission-data.json")
   .catch(error => console.log(error));
 
 // @params: Date, Date
-// returns the datetime difference between two dates formatted as a string in "d : hh : mm : ss"
+// returns the datetime difference between two dates formatted as a string in "d:hh:mm:ss"
 function getFormattedDateDiff(fromDate, toDate) {
   const dateDiff = toDate - fromDate;
   const daysDiff = (dateDiff / (86400 * 1000)) | 0; // whole days
@@ -55,10 +54,7 @@ function getFormattedDateDiff(fromDate, toDate) {
       1000) |
     0; // whole seconds
 
-  return `${daysDiff.toString().padStart(2, "0")} : 
-	${hrsDiff.toString().padStart(2, "0")} : 
-	${minDiff.toString().padStart(2, "0")} : 
-	${secDiff.toString().padStart(2, "0")}`;
+  return `${daysDiff.toString().padStart(2, "0")}:${hrsDiff.toString().padStart(2, "0")}:${minDiff.toString().padStart(2, "0")}:${secDiff.toString().padStart(2, "0")}`;
 }
 
 // returns formatted date string "wkday d, 
