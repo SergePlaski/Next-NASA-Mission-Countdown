@@ -1,4 +1,4 @@
-# Countdown to the Next Space Mission
+# NASA Next Space Mission Countdown
 
 ![Page screenshot](img/screenshot_v2.jpg)
 
